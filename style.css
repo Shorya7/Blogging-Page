@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    display: flex;
+    padding: 0 5vw;
+    line-height: 100px;
+    font-size: x-large;
+}
+.logo h1{
+    color: rgb(11, 11, 11);
+}
+#pro{
+    color: rgb(249, 55, 11);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: large;
+}
+
+nav ul li{
+    margin: 0 1vw;
+    padding: 0 2vw;
+}  
+nav ul li a{
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+}
+nav ul li a:hover{
+    cursor: pointer;
+    font-weight: 900;
+    background: rgb(229, 225, 217);
+    transition: .5s;
+}
+nav ul p{
+    margin-left: 4vw;
+    padding: 0 30px;
+}
+nav ul p:hover{
+    cursor: pointer;
+    font-weight: 900;
+}
+nav ul button{
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 700;
+}
+nav ul button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.bg{
+    position: absolute;
+    z-index: -1; 
+    width: 80vw;
+    height: 85vh;
+    margin: 5vh 9vw;
+    border-radius: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23vh;
+}
+.head{
+    font-size: 140%;
+    color: rgb(124, 203, 27);
+    font-weight: 900;
+}
+.content{
+    margin: 1vh 10vw;
+    margin-left: 13vw;
+    font-size: 170%;
+}
+.line{
+    font-size: 110%;
+    color: rgb(88, 86, 86);
+}
+.btn{
+    padding: 2vw;
+}
+#btn1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#btn1{
+    padding: 3vh 4vw;
+    margin-right: 1vw;
+    border-radius: 80px;
+    font-size: 110%;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+}
+#btn2{
+    margin-left: 1vw;
+    padding: 3vh 4vw;
+    border-radius: 80px;
+    font-size: 110%;
+    font-weight: 800;
+}
+#btn2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.section-1-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin:4vh 0;
+    gap: 20px;
+}
+.section-1-container .section-1-column{
+    width: 29vw;
+    height: 60vh;
+    border-radius: 35px;
+    border: 2px solid rgba(225, 220, 220, 0.686); 
+}
+.section-1-container .section-1-column img{
+    width: 25vw;
+    height: 35vh;
+    margin: 4vh 2vw 2vh 2vw ;
+    border-radius: 25px;
+}
+.section-1-container .section-1-column p{
+    font-weight: 800;
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+.section-1-container .section-1-column h3{
+    margin-left: 2vw;
+    color: rgb(124, 203, 27);
+}
+.content1{
+    font-size: 200%;
+    margin: 1vh 10vw;
+    margin-left: 13vw;
+}
+.line1{
+    font-size: 125%;
+    margin-top: 2vh;
+    color: rgb(88, 86, 86);
+}
+.btn input{
+    padding: 3vh 4vw;
+    border-radius: 35px;
+    border: 2px solid rgba(225, 220, 220, 0.686); 
+    font-size: 110%;
+    background-color: white;
+}
+.section-2-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin:15vh 0;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.section-2-container .section-2-column{
+    width: 25vw;
+    height: 60vh;
+    border-radius: 35px;
+    border: 2px solid rgba(225, 220, 220, 0.686); 
+}
+.section-2-container .section-2-column img{
+    width: 21vw;
+    height: 31vh;
+    margin: 4vh 2vw 2vh 2vw ;
+    border-radius: 25px;
+}
+.section-2-container .section-2-column p{
+    font-weight: 800;
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+.section-2-container .section-2-column h3{
+    margin-left: 2vw;
+    color: rgb(124, 203, 27);
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(156, 180, 192, 0.274);
+}
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lst h3{
+    color: black !important;
+    margin: 7vh 0 2vh 0;
+}
+.lst{
+    list-style-type: none;
+    color: gray;
+}
+.lst li{
+    padding: 4px 0;
+}
+footer hr{
+    margin: 4vh 8vw;
+    border-bottom: 1px solid rgba(122, 133, 106, 0.373);
+}
+.bottom{
+    list-style-type: none;
+    display: flex;   
+}
+.bottom li{
+    padding: 10px;
+}
+.contain li{
+    list-style-type: none;
+}
+.contain{
+    display: flex;
+    align-items: center;
+}
