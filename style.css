@@ -203,6 +203,7 @@ footer{
 .contain{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .lst h3{
     color: black !important;
@@ -228,8 +229,4 @@ footer hr{
 }
 .contain li{
     list-style-type: none;
-}
-.contain{
-    display: flex;
-    align-items: center;
 }
