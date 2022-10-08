@@ -66,16 +66,7 @@ nav ul button:hover{
     background-color: black;
     color: white;
 }
-.checkbtn{
-    font-size: 130px;
-    color: black;
-    float: right;
-    cursor: pointer;
-    line-height: 80px;
-}
-#check{
-    display: none;
-}
+
 .bg{
     position: absolute;
     z-index: -1; 
@@ -105,6 +96,8 @@ nav ul button:hover{
     margin: 0 15%;
 }
 .btn{
+    display: flex;
+    flex-direction: row;
     padding: 2vw;
 }
 #btn1:hover{
@@ -278,9 +271,44 @@ footer hr{
     }
     
 }
+@media(max-width:1065px){
+    #btn1,#btn2{
+        padding: 1.3rem;
+    }
+}
+@media(max-width:975px){
+    #btn1,#btn2{
+        padding: 0.8rem;
+        border-radius: 1.2rem;
+    }
+}
 @media(max-width:918px){
     .content1{
         font-size: 1.4rem;
     }
     
+}
+@media(max-width:850px){
+    nav button,nav p{
+        display: none;
+    }
+    nav ul{
+        margin-left: 12vw;
+    }
+}
+@media(max-width:760px){
+    .lst li{
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .lst h3{
+        display: none;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    footer hr{
+        display: none;
+    }
 }
