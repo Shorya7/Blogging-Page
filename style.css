@@ -7,7 +7,7 @@
  .section-2-column:hover{
     transform: translateY(-0.5%);
     transition: 1s;
-    box-shadow: 0 4rem 10rem rgba(0, 0, 0, 0.659);
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.477);
     cursor: pointer;
 }
 .logo{
